@@ -1,0 +1,55 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  body{ /*Cuerpo*/
+    background: #fdd5f2;
+    font-family: 'Baloo Tamma 2', arial;
+    margin-bottom: 20px;
+  }
+  h1{ /*Titulo 1*/
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(94, 94, 226);
+    font-weight: 60px;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+  h2{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(146, 31, 127);
+    border-bottom: 3px dashed #000;
+    padding-bottom: 10px;
+    
+}
+.Tarea{
+    display:grid;  
+    grid-template-columns: auto auto auto;
+    margin-left: 120px;
+    padding: 0px;
+    margin-top: 0.1px;
+}
+.Meses {
+    width: 80%;
+    background: linear-gradient(rgb(255, 250, 250),#e4e9dc);
+    margin-top: 3%;
+    margin-right: 5%;
+    padding: 30px ;
+    border-radius: 6px;
+    box-shadow: 5px 10px #f1fdda;
+
+}
+.productos {
+    width: 76%;
+    background: linear-gradient(rgb(255, 250, 250),#e4e9dc);
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 20px ;
+    border-radius: 6px;
+    box-shadow: 5px 10px #f1fdda;
+
+}
